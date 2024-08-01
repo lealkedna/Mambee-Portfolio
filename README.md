@@ -70,7 +70,7 @@ erDiagram
     PROJECT ||--o{ PROJECT_CATEGORY: "1..N"
     CATEGORY ||--o{ PROJECT_CATEGORY: "1..N"
     COORDENADOR ||--o{ DEV: "1..N"
-    COORDENADOR ||--o{ ANJO: "1..N""
+    COORDENADOR ||--o{ ANJO: "1..N"
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
