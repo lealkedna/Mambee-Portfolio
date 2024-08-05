@@ -2,6 +2,13 @@ Idealização Banco de dados
 
 ```mermaid
 erDiagram
+    DESTAQUE {
+        id int pk
+        titulo VARCHAR(255)
+        imagem_url VARCHAR(255)
+        data_destaque TIMESTAMP
+    }
+
     CONTATO {
         int id PK
         string nome
