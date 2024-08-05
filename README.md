@@ -2,55 +2,19 @@ Idealização Banco de dados
 
 ```mermaid
 erDiagram
-    COORDENADOR {
-        string id PK
-        string name
+    CONTATO {
+        int id PK
+        string nome
         string email
-        string password
-        datetime createDateTime
-        datetime updateDateTime
+        string motivo_contato
+        string mensagem
     }
 
-    PROJECT {
-        string id PK
-        string name
+    MOTIVO_CONTATO {
+        int id PK
         string descricao
-        string banner
-        datetime createDateTime
-        datetime updateDateTime
-        boolean status
-        string coordinator_id FK
     }
 
-    DEV {
-        string id PK
-        string name
-        string photo
-        string project_id FK
-    }
+    CONTATO ||--|| MOTIVO_CONTATO : "tem"
 
-    ANJO {
-        string id PK
-        string name
-        string photo
-        string project_id FK
-    }
-
-    CATEGORY {
-        string id PK
-        string name
-    }
-
-    PROJECT_CATEGORY {
-        string project_id FK
-        string category_id FK
-    }
-
-    COORDENADOR ||--o{ PROJECT: "1..N"
-    PROJECT ||--o{ DEV: "1..N"
-    PROJECT ||--o{ ANJO: "1..N"
-    PROJECT ||--o{ PROJECT_CATEGORY: "1..N"
-    CATEGORY ||--o{ PROJECT_CATEGORY: "1..N"
-    COORDENADOR ||--o{ DEV: "1..N"
-    COORDENADOR ||--o{ ANJO: "1..N"
 ```
