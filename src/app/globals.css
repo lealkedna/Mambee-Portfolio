@@ -1,4 +1,35 @@
-@tailwind base;
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.descrition {
+  background: #000347;
+  height: 100vh;
+  padding-left: 1rem;
+  padding-top: 10rem;
+}
+
+.title {
+ padding-bottom: 2rem;
+  color: #BD5471;
+}
+.text{
+  color:#A0CEDA;
+  font-weight: bolder;
+  font-size: 38px;
+  padding-bottom: 1rem;
+}
+
+.descrition-title{
+  color: #fff;
+  font-size: 20px;
+  max-width: 30%;
+  padding-bottom: 2rem;
+}
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -30,4 +61,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
