@@ -35,14 +35,26 @@
 }
 .favo_cima{
     position: absolute;
-    left: 984px;
     top: 99px;
-    transform: rotate(-180deg);
+    right: 0;
+  
 }
-.favoMel{
+.favo_baixo{
     position: absolute;
-    left: 30px;
-    top: 600px;
+    left: 0;
+    top: 800px;
+      transform: rotate(-180deg);
 }
+.bnt_submit{
+    box-sizing: border-box;
+    width: 220px;
+    height: 64px;
+    left: calc(50% - 220px/2);
+    top: 845px;
+    background: rgba(189, 84, 113, 0.8);
+    mix-blend-mode: normal;
+    border: 1px solid #BD5471;
+    border-radius: 30px;
 
+}
 

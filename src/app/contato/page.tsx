@@ -1,8 +1,12 @@
 import Image from "next/image";
-import Header from "@/compoments/header";
+import Header from "@/components/header";
 import style from "@/styles/Contato.module.css";
 
 import { MdEmail } from "react-icons/md";
+import InputField from "@/components/InputField";
+import Select from "@/components/Select";
+import Textarea from "@/components/Textarea";
+import ButtonSubmit from "@/components/ButtonSubmit";
 
 export default function Contato() {
     return (
@@ -23,17 +27,22 @@ export default function Contato() {
                             <div>mambee.fabrica@gmail.com</div>
                         </a>
                     </div>
-                <Image className={style.favoMel}
+                <Image className={style.favo_baixo}
                     src="/favoMel.png"
                     width={160}
                     height={165}
                     alt="Favo de mel"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+
                 />
                 </div>
 
                 <form>
-                    <input type="text" name="name" placeholder="Nome"></input><br />
-                    <input type="email" name="email" placeholder="email"></input><br />
+                    <InputField label="Nome" type="text" name="name" />
+                    <InputField label="Email" type="email" name="email"/>
+                    <Select/>
+                    <Textarea/>
+                    <ButtonSubmit/>
                 </form>
             </div>
         </>
