@@ -3,7 +3,7 @@ import Header from "@/components/header";
 import Button from "@/components/button";
 export default function Home() {
   return (
-    <main >
+    <main className="principal">
       <Header/>
       <div className="descrition">
         <div className="conteudo">
@@ -15,8 +15,8 @@ export default function Home() {
         <div className="container">
       <Image
       src="/mambee.png"
-      width={500}
-      height={500}
+      width={450}
+      height={450}
       alt="Picture of the author"
     />
 

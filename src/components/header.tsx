@@ -6,7 +6,7 @@ function Header() {
            <Link  href="/"><h2 className={styles.h2}>Mamb<span className={styles.span}>ee</span></h2></Link>
             <nav className={styles.nav}>
                 <ul className={styles.navList}>
-                    <li><Link href="/">Inicio</Link></li>
+                    <li><Link href="/">Início</Link></li>
                     <li><Link href="/projetos">Projetos</Link></li>
                     <li><Link href="/contato">Contrate-nos</Link></li>
                 </ul>
