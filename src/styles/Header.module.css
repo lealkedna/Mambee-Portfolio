@@ -22,7 +22,12 @@
 .nav ul li a{
     text-decoration: none;
     color: #fff;
-}
+    font-size: 20px;
+ }
+ .nav ul li a:hover{
+    color:#BD5471;
+ }
+ 
 .navList{
     display: flex;
    justify-content: center;
@@ -31,7 +36,7 @@
 .h2{
     color:#BD5471;
 }
-.span{
-    color:#BD5471 ;
-    text-decoration: none;
-}
+.h2:hover{
+    color:#fff;
+ }
+ 
