@@ -1,0 +1,29 @@
+.container{
+    background: #000347;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.container h1{
+    color: #BD5471;
+}
+.container h2{
+    color: #A0CEDA;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:15px;
+    gap: 10px;
+}
+.feature{
+    color: #BD5471;
+}
+.bnt{
+    left: 0;
+}

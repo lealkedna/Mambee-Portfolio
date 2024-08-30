@@ -1,10 +1,10 @@
 import Header from "@/components/header"
-
+import Processo from "@/components/Processo";
 export default function Projetos(){
     return(
         <div>
             <Header/>
-            <h1>Olá mundo</h1>
+            <Processo/>
         </div>
         
     );
