@@ -3,6 +3,7 @@ import Header from "@/components/header";
 import Button from "@/components/button";
 import Footer from "@/components/Footer"
 import Parceiros from "@/components/parceiros"
+import Chamamento from "@/components/chamamento"
 export default function Home() {
   return (
     <main className="principal">
@@ -24,11 +25,11 @@ export default function Home() {
 
         </div>
       </div>
-      <Parceiros />
-      <footer>
-        <Footer />
-      </footer>
-    </main>
-
+      <Parceiros/>
+      <Chamamento/>
+    <footer>
+      <Footer/>
+    </footer>
+    </main> 
   );
 }

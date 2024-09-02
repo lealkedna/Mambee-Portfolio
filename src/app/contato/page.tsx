@@ -7,14 +7,12 @@ import InputField from "@/components/InputField";
 import Select from "@/components/Select";
 import Textarea from "@/components/Textarea";
 import ButtonSubmit from "@/components/ButtonSubmit";
-import Chamamento from "@/components/chamamento";
 
 export default function Contato() {
     return (
         <>
             <Header />
             <div className={style.section_contato}>
-                <Chamamento/>
                 <Image className={style.favo_cima}
                     src="/favoMel.png"
                     width={160}
