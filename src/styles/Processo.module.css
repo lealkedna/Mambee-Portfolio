@@ -1,20 +1,34 @@
-.textProcess{
-    text-align: center;
-    color:#aa2222;
-    margin-top:20px
-
+.containe {
+    height: 90vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0
 }
-.textParagrafo{
+
+.textProcess {
+    text-align: center;
+    color: #aa2222;
+    padding-top: 20px
+}
+
+.textParagrafo {
     text-align: center;
     font-size: 32px;
     padding: 20px;
 }
 
+.cards {
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+
 .card {
+    display: flex;
     background-color: #e6f7ff;
     width: 300px;
     height: 250px;
-    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -23,6 +37,46 @@
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.card:hover{
+    color: #aa2222;
+    background: #333333;
+}
+
+/* .card {
+    width: 150px;
+    height: 86.6px;
+    background-color: #e6f7ff;
+    position: relative;
+    margin: 43.3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #aa2222;
+    font-size: 14px;
+}
+
+.card:before,
+.card:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+}
+
+.card:before {
+    bottom: 100%;
+    border-bottom: 43.3px solid #e6f7ff;
+}
+
+.card:after {
+    top: 100%;
+    width: 0;
+    border-top: 43.3px solid #e6f7ff;
+} */
 
 .card img {
     width: 40px;
@@ -41,5 +95,3 @@
     color: #aa2222;
     margin: 0;
 }
-
-
