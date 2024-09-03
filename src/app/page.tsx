@@ -2,7 +2,7 @@ import Image from "next/image";
 import Header from "@/components/header";
 import Button from "@/components/button";
 import Footer from "@/components/Footer"
-import Parceiros from "@/components/parceiros"
+import Parceiros from "@/components/Parceiros"
 import Chamamento from "@/components/chamamento"
 export default function Home() {
   return (
