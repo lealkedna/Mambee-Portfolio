@@ -2,23 +2,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
   }
   
   .parceiros {
     padding: 30px;
     text-align: center;
+    margin-top: 35px;
+    color: blueviolet;
   }
   
   .title {
-    margin-top: 80px; 
-    margin-bottom: 20px; 
+    padding-top: 80px; 
+    padding-bottom: 20px; 
+    color: #BD4571;
   }
   
-  .parceiros-grid {
+  .parceirosItem{
     display: flex;
     gap: 10px;
     justify-content: center;
-    
+  
    
   }
   
@@ -28,8 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
-   /* border: 3px solid rgb(62, 169, 236); */
-    /*border-radius: 5px;*/
+    background-color: #BD4571;
+ 
   }
   
