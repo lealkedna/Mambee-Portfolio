@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Header from "@/components/header";
 import Button from "@/components/button";
-import Footer from "@/components/Footer"
-import Parceiros from "@/components/Parceiros"
-import Chamamento from "@/components/chamamento"
+import Footer from "@/components/Footer";
+import Parceiros from "@/components/Parceiros";
+import Chamamento from "@/components/chamamento";
+import Destaques from "@/components/Destaques";
 export default function Home() {
   return (
     <main className="principal">
@@ -25,6 +26,7 @@ export default function Home() {
 
         </div>
       </div>
+      <Destaques/>
       <Parceiros/>
       <Chamamento/>
     <footer>

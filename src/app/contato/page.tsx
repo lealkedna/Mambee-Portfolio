@@ -7,6 +7,7 @@ import InputField from "@/components/InputField";
 import Select from "@/components/Select";
 import Textarea from "@/components/Textarea";
 import ButtonSubmit from "@/components/ButtonSubmit";
+import Footer from "@/components/Footer";
 
 export default function Contato() {
     return (
@@ -45,6 +46,7 @@ export default function Contato() {
                     <ButtonSubmit/>
                 </form>
             </div>
+            {/*<Footer/>*/}
         </>
     );
 }

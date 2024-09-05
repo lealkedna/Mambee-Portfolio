@@ -1,0 +1,17 @@
+/*Card principal*/
+.card_style{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+
+}
+
+.image_card{
+
+}
+.card_content{
+    
+}
