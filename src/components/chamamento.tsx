@@ -17,7 +17,7 @@ export default function Chamamento() {
                         height={34}
                         alt="icon 1"
                     />
-                    <p><strong>Ambiente propincio</strong></p>
+                    <p><strong>Ambiente propício</strong></p>
                 </div>
                 <div className={style.feature}>
                     <Image

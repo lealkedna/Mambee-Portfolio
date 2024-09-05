@@ -8,7 +8,7 @@ export default function Parceriros(){
       <div className={styles.coluna1}>
         <Image
           src="/images/labitec.png"
-          width={110}
+          width={120}
           height={110}
           alt="Parceiro 1"
         />
@@ -30,8 +30,8 @@ export default function Parceriros(){
       <div className={styles.coluna2}>
       <Image
           src="/images/ifpiPicos.png"
-          width={300}
-          height={100}
+          width={400}
+          height={80}
           alt="Parceiro 4"
         />
         <Image
@@ -42,8 +42,8 @@ export default function Parceriros(){
         />
         <Image
           src="/images/virtex.png"
-          width={250}
-          height={100}
+          width={150}
+          height={80}
           alt="Parceiro 6"
         />
          <Image

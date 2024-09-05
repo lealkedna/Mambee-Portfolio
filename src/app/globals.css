@@ -20,6 +20,8 @@
   padding: 0;
   text-decoration: none;
   font-family: "Poppins";
+  object-fit: contain;
+ 
 }
 
 .principal{
@@ -73,44 +75,7 @@
   margin-top: 15px;
 }
  
-/* Parceiros */
-.description {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.parceiros {
-  padding: 30px;
-  text-align: center;
-}
-
-.title {
-  margin-top: 80px; 
-  margin-bottom: 20px; 
-}
-
-.parceiros-grid {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  
- 
-}
-
-.parceiro-item {
-  
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  
-  border: 3px solid rgb(62, 169, 236); 
-  border-radius: 5px;
-}
-
- /* ate aq*/
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
