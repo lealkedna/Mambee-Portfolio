@@ -8,24 +8,29 @@ export default function Parceriros(){
       <div className={styles.coluna1}>
         <Image
           src="/images/labitec.png"
-          width={120}
-          height={110}
+          width={200}
+          height={100}
           alt="Parceiro 1"
         />
         <Image
           src="/images/pete.png"
           width={200}
           height={100}
+
           alt="Parceiro 2"
         />
          <Image
           src="/images/mb.png"
-          width={150}
+          width={200}
           height={100}
           alt="Parceiro 3"
         />
-        
-        
+         <Image
+          src="/images/sebrai.png"
+          width={200}
+          height={100}
+          alt="Parceiro 4"
+          />
       </div>
       <div className={styles.coluna2}>
       <Image
