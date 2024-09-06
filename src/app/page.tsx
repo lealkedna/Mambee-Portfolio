@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className="container">
           <Image
-            src="/mambee.png"
+            src="/images/mambee.png"
             width={450}
             height={450}
             alt="Picture of the author"

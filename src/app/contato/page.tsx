@@ -15,7 +15,7 @@ export default function Contato() {
             <Header />
             <div className={style.section_contato}>
                 <Image className={style.favo_cima}
-                    src="/favoMel.png"
+                    src="/images/favoMel.png"
                     width={160}
                     height={165}
                     alt="Favo de mel"
@@ -29,7 +29,7 @@ export default function Contato() {
                         </a>
                     </div>
                 <Image className={style.favo_baixo}
-                    src="/favoMel.png"
+                    src="/images/favoMel.png"
                     width={160}
                     height={165}
                     alt="Favo de mel"
