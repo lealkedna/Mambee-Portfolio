@@ -3,7 +3,7 @@ import styles from "@/styles/Destaques.module.css"
 export default function Card(){
     const noticias  = [
         {
-            image: '',
+            image: '/images/elpais.jpg',
             desc: 'Las caras del éxito del programa brasileño contra la probreza',
             link: 'https://elpais.com/america/2024-09-01/gracias-a-bolsa-familia-menos-hijos-heredan-la-miseria-en-brasil.html'
         },
@@ -26,6 +26,8 @@ export default function Card(){
 
     return (
         <div className={styles.card_style}>
+            <h2 className={styles.title}>Destaques</h2>
+            <div className={styles.noticia}>
             {
                 noticias.map((noticia, index)=>( 
                     <CardDestaques 
@@ -35,6 +37,7 @@ export default function Card(){
                         link={noticia.link}/>
                 ))
             }
+            </div>
         </div>
 
     );
