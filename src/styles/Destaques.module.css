@@ -1,40 +1,40 @@
 /*Card principal page Destaques*/
 .card_style {
     text-align: center;
-    padding-top: 50px; 
+    padding-top: 100px; 
     margin-top: 100px; 
-    padding-bottom: 50px;
+    padding-bottom: 200px;
+    background: rgba(217, 217, 217, 0.5);
 }
 
 .noticia {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 42px;
     line-height: 31px;
     text-align: center;
     color: #BD5471;
-    margin-bottom: 20px;
-
-
+    margin-bottom: 50px;
+    margin-top: -50px;
 }
 
 
 /* CardDestaques*/
 .card {
+    position: relative;
     box-sizing: border-box;
     border: 3px solid #BD5471;
     border-radius: 15px;
     width: 300px;
     padding: 5px;
-    text-align: center;
     transition: transform 0.3s ease;
 }
 
@@ -44,9 +44,8 @@
     object-fit: cover;
     border-radius: 5px;
 }
-
 .desc {
-    margin: 10px 0;
+    margin: 15px 0;
     font-family: 'Roboto Flex';
     font-style: normal;
     font-weight: bold;
@@ -58,17 +57,19 @@
 }
 
 .link {
+    position: absolute;
+    bottom: 5px;
+    left: 6px;
     text-decoration: none;
     font-family: 'Roboto Flex';
     font-style: normal;
     font-size: 20px;
     font-weight: normal;
     line-height: 23px;
-    text-align: center;
     color: #BD5471;
 
 }
 
-.news-link:hover {
+.link:hover {
     text-decoration: underline;
 }

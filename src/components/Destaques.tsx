@@ -3,7 +3,7 @@ import styles from "@/styles/Destaques.module.css"
 export default function Card(){
     const noticias  = [
         {
-            image: '/images/elpais.jpg',
+            image: '/images/jornal-elpais.jpg',
             desc: 'Las caras del éxito del programa brasileño contra la probreza',
             link: 'https://elpais.com/america/2024-09-01/gracias-a-bolsa-familia-menos-hijos-heredan-la-miseria-en-brasil.html'
         },
