@@ -8,7 +8,16 @@ export default function Processo() {
             <p className={styles.textParagrafo}>Desenvolvimento Ágil: Inovação, Construção e Avaliação Contínua</p>
 
             <div className={styles.cards}>
-                <div className={styles.card}>
+
+                <Image
+                    src="/images/Group 18.png"
+                    width={450}
+                    height={500}
+                    alt="teste 1"
+                /> 
+
+                
+                {/* <div className={styles.card}>
                     <Image
                         src="/mambee.png"
                         width={450}
@@ -48,7 +57,10 @@ export default function Processo() {
                     />
                     <h3>Avaliação</h3>
                     <p>Revisão final do trabalho</p>
-                </div>
+                </div>*/}
+
+                
+
             </div>
 
         </div>

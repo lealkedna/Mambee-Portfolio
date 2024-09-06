@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "@/components/header";
+import Processo from "@/components/Processo";
 import Button from "@/components/button";
 import Footer from "@/components/Footer";
 import Parceiros from "@/components/Parceiros";
@@ -26,9 +27,10 @@ export default function Home() {
 
         </div>
       </div>
-      <Destaques/>
-      <Parceiros/>
+      <Processo/>
       <Chamamento/>
+      <Parceiros/>
+      <Destaques/>
     <footer>
       <Footer/>
     </footer>

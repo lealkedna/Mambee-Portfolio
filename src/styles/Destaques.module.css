@@ -2,7 +2,7 @@
 .card_style {
     text-align: center;
     padding-top: 100px; 
-    margin-top: 100px; 
+    /* margin-top: 100px;  */
     padding-bottom: 200px;
     background: rgba(217, 217, 217, 0.5);
 }

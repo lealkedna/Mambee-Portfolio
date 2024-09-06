@@ -24,6 +24,8 @@ export default function Card(){
         }
     ];
 
+    
+
     return (
         <div className={styles.card_style}>
             <h2 className={styles.title}>Destaques</h2>

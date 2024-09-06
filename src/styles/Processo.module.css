@@ -2,12 +2,13 @@
     height: 90vh;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 0
+    padding: 0;
+    
 }
 
 .textProcess {
     text-align: center;
-    color: #aa2222;
+    color: var( --primary);
     padding-top: 20px
 }
 
@@ -20,10 +21,21 @@
 .cards {
     display: flex;
     justify-content: center;
-    gap:15px;
+    /* gap:15px; */
+    /* background-image: url("/images/GroupProcesso.png");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    
 }
 
-.card {
+ .cards img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* .card {
     display: flex;
     background-color: #e6f7ff;
     width: 300px;
@@ -41,7 +53,7 @@
 .card:hover{
     color: #aa2222;
     background: #333333;
-}
+} */
 
 /* .card {
     width: 150px;
@@ -78,9 +90,9 @@
     border-top: 43.3px solid #e6f7ff;
 } */
 
-.card img {
-    width: 40px;
-    height: 40px;
+/* .card img {
+    width: 100%;
+    height: auto;
     margin-bottom: 15px;
 }
 
@@ -94,4 +106,4 @@
     font-size: 14px;
     color: #aa2222;
     margin: 0;
-}
+} */
