@@ -13,8 +13,8 @@ export default function Chamamento() {
                 <div className={style.feature}>
                     <Image
                         src="/images/um.png"
-                        width={34}
-                        height={34}
+                        width={40}
+                        height={40}
                         alt="icon 1"
                     />
                     <p><strong>Ambiente propício</strong></p>
@@ -22,8 +22,8 @@ export default function Chamamento() {
                 <div className={style.feature}>
                     <Image
                         src="/images/dois.png"
-                        width={34}
-                        height={34}
+                        width={40}
+                        height={40}
                         alt="icon 2"
                     />
                     <p><strong>Pessoas criativas</strong></p>
@@ -31,8 +31,8 @@ export default function Chamamento() {
                 <div className={style.feature}>
                     <Image
                         src="/images/tres.png"
-                        width={34}
-                        height={34}
+                        width={40}
+                        height={40}
                         alt="icon 3"
                     />
                     <p><strong>Processo sistemático e <br />contínuo de criação</strong></p>
