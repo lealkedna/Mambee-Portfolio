@@ -8,7 +8,7 @@ export default function Footer(){
             <div className={styles.container}>
                 <div className={styles.logo}>
                     <Image 
-                        src="/mambee_logo_sem_fundo.png"
+                        src="/images/mambee_logo_sem_fundo.png"
                         width={165}
                         height={82}
                         alt="Logo da mambee"
@@ -31,7 +31,7 @@ export default function Footer(){
                 <div className={styles.redes_sociais}>
                     <a href="https://www.instagram.com/mambeeifpi/" target="_blank" rel="noopener noreferrer">
                     <Image 
-                                src="/instagram_icon.png"
+                                src="/images/instagram_icon.png"
                                 width={30}
                                 height={30}
                                 alt="Icon instagram"
@@ -39,7 +39,7 @@ export default function Footer(){
                          </a>
                             <a href="https://github.com/mambee-ifpi-picos" target="_blank" rel="noopener noreferrer">
                             <Image 
-                                src="/icons_github.png"
+                                src="/images/icons_github.png"
                                 width={30}
                                 height={30}
                                 alt="Icon github"
@@ -47,7 +47,7 @@ export default function Footer(){
                             </a>
                            <a href="https://www.youtube.com/@Mambee" target="_blank" rel="noopener noreferrer">
                             <Image 
-                                src="/icons_youtube.png"
+                                src="/images/icons_youtube.png"
                                 width={30}
                                 height={30}
                                 alt="Icon youtube"
