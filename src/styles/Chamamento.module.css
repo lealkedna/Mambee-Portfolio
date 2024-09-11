@@ -68,6 +68,9 @@
 
 
 @media screen and (max-width: 768px) {
+    .container{
+        height: auto;
+    }
     .features {
         flex-direction: column;
     }

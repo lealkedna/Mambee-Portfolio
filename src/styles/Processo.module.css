@@ -21,10 +21,6 @@
 .cards {
     display: flex;
     justify-content: center;
-    /* gap:15px; */
-    /* background-image: url("/images/GroupProcesso.png");
-    background-repeat: no-repeat;
-    background-size: contain; */
     
 }
 
@@ -35,75 +31,15 @@
     align-items: center;
 } 
 
-/* .card {
-    display: flex;
-    background-color: #e6f7ff;
-    width: 300px;
-    height: 250px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    text-align: center;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+@media (max-width: 768px)  {
+    .containe{
+        height: auto;
+    }
+
+    .cards img{
+        width: 90%;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
 }
 
-.card:hover{
-    color: #aa2222;
-    background: #333333;
-} */
-
-/* .card {
-    width: 150px;
-    height: 86.6px;
-    background-color: #e6f7ff;
-    position: relative;
-    margin: 43.3px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    color: #aa2222;
-    font-size: 14px;
-}
-
-.card:before,
-.card:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 75px solid transparent;
-    border-right: 75px solid transparent;
-}
-
-.card:before {
-    bottom: 100%;
-    border-bottom: 43.3px solid #e6f7ff;
-}
-
-.card:after {
-    top: 100%;
-    width: 0;
-    border-top: 43.3px solid #e6f7ff;
-} */
-
-/* .card img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.card h3 {
-    font-size: 18px;
-    color: #aa2222;
-    margin: 10px 0;
-}
-
-.card p {
-    font-size: 14px;
-    color: #aa2222;
-    margin: 0;
-} */
