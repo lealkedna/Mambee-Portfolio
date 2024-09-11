@@ -7,7 +7,7 @@ export default function Chamamento() {
         <div className={style.container}>
             <div className={style.header}>
                 <h1>Quer ser nosso Parceiro?</h1>
-                <h2>Junte-se a nós e transforme alunos em <br />profissionais produtivos e protagonistas.</h2>
+                <h2>Junte-se a nós e transforme alunos em <br/> profissionais produtivos e protagonistas.</h2>
             </div>
             <div className={style.features}>
                 <div className={style.feature}>
