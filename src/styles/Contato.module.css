@@ -1,16 +1,18 @@
-.section_contato{
+.section_contato {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.container{
-    padding-top: 110px;
-    padding-bottom: 100px;
+
+.container {
+    padding-top: 120px;
+    padding-bottom: 160px;
     color: #BD5471;
     height: auto;
 }
-.container h1{
+
+.container h1 {
     left: calc(50% - 994px/2 + 0.5px);
     top: 30px;
     font-family: 'Spartan';
@@ -19,41 +21,63 @@
     font-size: 45px;
     line-height: 60px;
     color: #BD5471;
-
-
 }
-.info_contato a{
+
+.paragrafo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 9px;
+    text-align: center;
+    color: #A0CEDA;
+}
+
+.info_email a,
+.info_endereco,
+.info_instagram a {
     display: flex;
     align-items: center;
     gap: 10px;
     margin: 20px;
     font-family: 'Spartan';
     font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 20px;
     color: #BD5471;
+    border: 2px solid #BD5471;
+    border-radius: 10px;
+    padding: 20px; 
 }
-.favo_cima{
+
+.favo_cima {
     position: absolute;
     top: 99px;
     right: 0;
-  
+
 }
-.favo_baixo{
+
+.favo_baixo {
     position: absolute;
     left: 0;
     bottom: 0;
     transform: rotate(-180deg);
 }
-.bnt_submit{
-    box-sizing: border-box;
-    width: 220px;
-    height: 64px;
-    left: calc(50% - 220px/2);
-    top: 845px;
-    background: rgba(189, 84, 113, 0.8);
-    mix-blend-mode: normal;
-    border: 1px solid #BD5471;
-    border-radius: 30px;
 
+@media (max-width: 768px) {
+    .favo_baixo, .favo_cima{
+        width: 80px;
+        height: auto;
+    }
+    .favo_cima{
+        top: 130px;
+        right: 10px;
+    }
+    .favo_baixo{
+        display: none;
+    }
+    .container h1{
+        font-size: 35px;
+        text-align: center;
+    }
 }
