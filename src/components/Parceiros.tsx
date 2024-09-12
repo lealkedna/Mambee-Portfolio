@@ -27,7 +27,7 @@ export default function Parceriros(){
         />
          <Image
           src="/images/sebrai.png"
-          width={200}
+          width={100}
           height={100}
           alt="Parceiro 4"
           />
@@ -41,7 +41,7 @@ export default function Parceriros(){
         />
         <Image
           src="/images/valedomel.png"
-          width={400}
+          width={300}
           height={80}
           alt="Parceiro 5"
         />

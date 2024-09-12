@@ -1,0 +1,29 @@
+.agrupar{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+.text {
+  margin-right: 20px;
+  width: 30%; 
+  word-wrap: break-word;
+}
+
+.video {
+  margin-left: 20px;
+}
+
+.video {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 800px) {
+  .agrupar {
+      flex-direction: column;
+  }
+  .text, .video {
+      width: 100%;
+  }
+}
+
+  
